@@ -1,0 +1,46 @@
+<div class="header">
+    <div class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#/"><img src="images/logo.png" class="face pull-left">
+                    <p>I.V.A</p>
+                </a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <!-- <li><a class="btn btn-primary btn-new-chat" ng-click="setSelectedIndex(null)">New Chat</a></li> -->
+                <!-- <li><i class="glyphicon glyphicon-off" ng-click="logout();"></i></li> -->
+            </ul>
+        </div>
+    </div>
+</div>
+<div ng-show="rooms.length <= 0">
+    <br>
+    <div class="text-center pitch">
+        <h3>Book a Flight on Chat with IVA.</h3>
+    </div>
+    <div class="text-center instructions">
+        <h4>IVA is a chatbot that helps you search for the flights based on your needs.</h4> </div>
+    <br>
+    <div class="center-block"> <img src="images/iva_full.png" class="img-responsive iva_full center-block"> </div>
+    <br>
+    <br>
+    <div class="text-center instructions"> <a class="btn btn-primary btn-lg" ng-click="setSelectedIndex(null)">Chat With IVA</a> </div>
+</div>
+<div ng-show="rooms.length > 0">
+    <div class="left">
+        <div class="user_list_item" ng-repeat="room in rooms" ng-click="setSelectedIndex($index)">
+            <div class="user_card">
+                <div class="profile_pic pull-left"> <img ng-src="{{room.avatar_image_url}}"> </div>
+                <div class="user_details pull-left">
+                    <p class="name">{{room.avatar_name | limitTo: 30}}</p>
+                    <p class="phone">{{room.messages.length>0 ? getMessage(room.messages[room.messages.length-1].msg) : ""}}</p>
+                </div>
+                <div class="user_extra pull-right">
+                    <!-- <p class="notifications" ng-show = "room.notification_count > 0">{{room.notification_count}}</p> -->
+                    <p class="timestamp">{{room.messages.length>0 ? room.messages[room.messages.length-1].created_at : "" | date: 'h:mm a'}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="floating_plus" ng-click="setSelectedIndex(null)"> <img src="images/add.svg" alt="plus" height="57" width="57"></i><!--i class="material-icons md-dark">add</i--> </div>
