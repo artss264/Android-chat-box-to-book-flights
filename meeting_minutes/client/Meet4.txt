@@ -1,0 +1,35 @@
+Meeting 4
+
+
+
+## Date and Time
+
+5:00 PM, 5th October 2015
+
+
+
+## Attendees
+
+Shaleen Garg
+Shreyash Shriyam
+Ashutosh Ranjan
+
+
+
+
+
+## Agenda
+
+It was last meeting before Release 1 so basically discussed about the presentation.
+
+
+
+## Minutes
+
+The client explained the entire code we developed for clarity and discussed about how to present it during Release 1. Discussed about slides and brief speech we prepared and majorly focused on presentation.
+
+
+
+## Action Points
+
+We need to understand the code better prepare slides and demo and pratice for presentation.

@@ -1,0 +1,32 @@
+Meeting 3
+
+
+
+
+## Date and Time
+
+5:00 PM, 29th September 2015
+
+
+## Attendees
+
+Shaleen Garg
+Shreyash Shriyam
+
+
+
+## Agenda
+
+It was mainly on the new type of application that we had to built, client gave a snapshot of how the application should look.
+
+
+
+## Minutes
+
+The client provided the snapshot of how the application should look like. He explained the concept of multiple chat heads at the same time and hoe to use blur feature to change between views. He explained other technical stuffs related to building the applicaiton.
+
+
+
+## Action Points
+
+Start coding in AngularJs to build the application that meet the specifications provided by the image of application.

@@ -1,0 +1,33 @@
+﻿Meeting 1
+
+
+
+
+## Date and Time 
+
+9:30PM, 10th August 2015 
+
+
+
+## Attendees 
+
+Ashutosh Ranjan 
+Shaleen Garg 
+
+
+
+## Agenda 
+
+It was our first meeting with the client, so the basic purpose of this meeting was to know more about the project and everything that goes with it. 
+
+
+
+## Minutes 
+
+The client explained us about what the application will be. He told us that it is basically an e-commerce by chat software application. They have implemented the android version and its in the market. Now, they want to move ahead by providing the apllication to IOS users and so we have to build the hybrid IOS version of the application, which would be maily in JS using AngularJS and ionic frameworks along with HTML, CSS and tolls like bootstrapping. 
+
+
+
+## Action Points 
+
+We need to learn JS, AngularJS from "codecademy.com" and also look into some bootstapping tutorials.

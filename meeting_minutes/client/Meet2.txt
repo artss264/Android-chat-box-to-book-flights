@@ -1,0 +1,45 @@
+﻿Meeting 2
+
+
+
+## Date and Time 
+
+5:00PM, 21st August 2015 
+
+
+
+## Attendees 
+
+Shaleen Garg 
+Ashutosh Ranjan 
+Shreyash Shriyam 
+
+
+
+
+## Agenda 
+
+Discuss about how we have to proceed in the project once we have practiced a bit of JS. 
+
+
+
+
+## Minutes 
+
+We talked about the design/project planning principles in detail. We also talked about concepts, to be used in our project, like Data Binding etc. He told us about a few more online resources available which can help us to have a stronghold on AngularJS among other things. Some of the resources are as mentioned - "thinkster.io" , "egghead.io" etc. 
+
+
+
+
+
+## Action Points 
+
+We need to learn AngularJS by the next week i.e. before our next meeting. 
+
+
+
+
+## Date of next meeting 
+
+28th August, 2015 
+
